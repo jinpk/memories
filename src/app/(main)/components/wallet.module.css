@@ -1,0 +1,6 @@
+.wallet {
+  border: 1px solid var(--primary-color) !important;
+  margin-top: 1rem;
+  color: var(--primary-color);
+  background-color: transparent !important;
+}

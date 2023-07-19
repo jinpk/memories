@@ -1,0 +1,19 @@
+.container {
+  width: var(--nav-width);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  border-right: 1px solid var(--primary-color);
+
+  .nav {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    .content {
+      margin-top: auto;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
